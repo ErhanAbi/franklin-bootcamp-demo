@@ -1,0 +1,22 @@
+.image-block {
+  display: block;
+}
+
+.image-block img {
+  border-radius: 0.5rem;
+}
+
+.image-block.centered p:not(:last-child) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-block.centered p:last-child {
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.image-block.centered picture {
+  width: 50%;
+}
